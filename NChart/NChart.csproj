@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/zsu/NChart</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/zsu/NChart</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>NChart</PackageTags>
+    <Copyright>Copyright © 2021 - ZSU</Copyright>
+    <Description>A .NET Core library to create charts.</Description>
+    <Authors>Zhicheng Su</Authors>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TagHelper\**" />
+    <EmbeddedResource Remove="TagHelper\**" />
+    <None Remove="TagHelper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Html.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+
+</Project>

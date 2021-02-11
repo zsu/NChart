@@ -1,0 +1,29 @@
+using System.Collections.Generic;
+
+namespace NChart.ComplexChart
+{
+    /// <summary>
+    /// The complex data.
+    /// </summary>
+    public class ComplexData
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ComplexData"/> class.
+        /// </summary>
+        public ComplexData()
+        {
+            Labels = new List<string>();
+            Datasets = new List<ComplexDataset>();
+        }
+
+        /// <summary>
+        /// Gets or sets the labels.
+        /// </summary>
+        public List<string> Labels { get; set; }
+
+        /// <summary>
+        /// Gets or sets the datasets.
+        /// </summary>
+        public List<ComplexDataset> Datasets { get; set; }
+    }
+}

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chart.Mvc.Core", "NChart\NChart.csproj", "{3F09C0EC-0750-4439-B92F-6BAB398FADBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NChart.Sample", "NChart.Sample\NChart.Sample.csproj", "{B06109C8-6D9F-4CA7-807F-CEB9CA052B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F09C0EC-0750-4439-B92F-6BAB398FADBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F09C0EC-0750-4439-B92F-6BAB398FADBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F09C0EC-0750-4439-B92F-6BAB398FADBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F09C0EC-0750-4439-B92F-6BAB398FADBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCEC629-A9C3-41FF-9415-4EFF03053A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCEC629-A9C3-41FF-9415-4EFF03053A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCEC629-A9C3-41FF-9415-4EFF03053A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCEC629-A9C3-41FF-9415-4EFF03053A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06109C8-6D9F-4CA7-807F-CEB9CA052B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06109C8-6D9F-4CA7-807F-CEB9CA052B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06109C8-6D9F-4CA7-807F-CEB9CA052B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06109C8-6D9F-4CA7-807F-CEB9CA052B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {788E1191-A964-4F24-83A7-A4CB3058AB99}
+	EndGlobalSection
+EndGlobal
