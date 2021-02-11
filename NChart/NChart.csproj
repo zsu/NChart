@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/zsu/NChart</PackageProjectUrl>
     <RepositoryUrl>https://github.com/zsu/NChart</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -12,6 +11,7 @@
     <Description>A .NET Core library to create charts.</Description>
     <Authors>Zhicheng Su</Authors>
     <Version>1.0.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
